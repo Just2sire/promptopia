@@ -68,9 +68,10 @@ const Header = () => {
             py={1}
             sx={{ justifyContent: "space-between", alignItems: "center" }}
           >
-            <Link href='/' style={{ textDecoration: 'none' }} >              <Typography color="secondary" sx={{ fontSize: "2.5rem", fontWeight: 'bold', '&:hover': { color: 'primary' }, cursor: 'pointer' }} >
-              Promptopia
-            </Typography>
+            <Link href='/' style={{ textDecoration: 'none' }} >
+              <Typography color="secondary" sx={{ fontSize: "1.5rem", fontWeight: 'bold', '&:hover': { color: 'primary' }, cursor: 'pointer' }} >
+                Promptopia
+              </Typography>
             </Link>
 
             <Stack

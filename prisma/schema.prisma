@@ -25,7 +25,7 @@ model Prompt {
   userId    Int
   title     String
   content   String
-  // tags 
+  tag       String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }

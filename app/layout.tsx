@@ -20,15 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <ThemeRegistry>
-        <body className={inter.className}>
+      <body className={inter.className}>
+        <ThemeRegistry>
           <Stack minHeight='100vh' justifyContent='space-between' width='100%'>
             <Header />
             {children}
             <Footer />
           </Stack>
-        </body>
-      </ThemeRegistry>
+        </ThemeRegistry>
+      </body>
     </html>
   );
 }
