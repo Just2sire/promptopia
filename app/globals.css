@@ -82,10 +82,25 @@
 html,
 body {
   max-width: 100vw;
+  min-height: 100vh;
+  justify-content: space-between;
   overflow-x: hidden;
+  padding-inline: 5vw;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  margin-inline: auto;
 }
 
-body {
+.title {
+  background: linear-gradient(to right, #ff8800, #ffe602);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -93,15 +108,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */
